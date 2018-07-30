@@ -2,7 +2,8 @@
 @import './extra-normalize.css';
 
 body {
-  color: #000;
+  background-color: #F9F0EB;
+  color: #111111;
   -webkit-font-smoothing: antialiased;
   font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont,
     “Segoe UI”, “Roboto”, “Oxygen”, “Ubuntu”, “Cantarell”,
