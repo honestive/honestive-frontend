@@ -5,7 +5,7 @@
   "dependencies": {
     "@candour/fluid": "^1.0.9",
     "@candour/step": "^1.0.11",
-    "candour": "^1.0.1",
+    "candour": "^3.0.0",
     "normalize.css": "^8.0.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
