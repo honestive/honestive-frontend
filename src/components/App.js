@@ -5,11 +5,13 @@ import {
   Headline,
   Text,
 } from 'candour'
+import Head from './Head'
 import Navbar from './Navbar'
 import SubscribeForm from './SubscribeForm'
 
 export default () => (
   <div>
+    <Head />
     <Navbar />
     <Container padding paddingBottom={10} marginTopRaw={fluid(40, 0)} limited>
       <Headline level={1} bold>
