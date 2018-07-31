@@ -6,14 +6,15 @@
     "@candour/fluid": "^1.0.9",
     "@candour/step": "^1.0.11",
     "apollo-boost": "^0.1.12",
-    "candour": "^3.1.0",
+    "candour": "3.1.1",
     "graphql": "^0.13.2",
     "informed": "^1.7.4",
     "normalize.css": "^8.0.0",
     "react": "^16.4.1",
     "react-apollo": "^2.1.9",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "react-window-size": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

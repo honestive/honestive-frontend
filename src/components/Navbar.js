@@ -1,13 +1,13 @@
 import React from 'react'
-import step from '@candour/step'
+import fluid from '@candour/fluid'
 import {
   Container,
   Text,
 } from 'candour'
 
 export default () => (
-  <Container padding>
-    <Text bold flex alignItemsCenter>
+  <Container component='a' href='/' flex padding>
+    <Text level={2} bold flex alignItemsCenter>
       <Container component='img' src='/logo.svg' paddingRight style={styles.logo} /> Honestive
     </Text>
   </Container>
@@ -15,7 +15,7 @@ export default () => (
 
 const styles = {
   logo: {
-    height: step(2),
-    width: step(2),
+    height: fluid(30, 40),
+    width: fluid(30, 40),
   },
 }

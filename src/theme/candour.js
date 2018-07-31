@@ -3,8 +3,8 @@ import fluid from '@candour/fluid'
 export default {
   headline: {
     1: {
-      fontSize: fluid(50, 70),
-      lineHeight: fluid(50, 70),
+      fontSize: fluid(35, 70),
+      lineHeight: fluid(35, 70),
     },
   },
   input: {
@@ -13,8 +13,6 @@ export default {
     },
   },
   button: {
-    minWidth: fluid(150, 250),
-    maxWidth: fluid(150, 250),
     backgroundColor: '#2765EF',
 
     ':hover': {
