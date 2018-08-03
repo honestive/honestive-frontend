@@ -6,8 +6,8 @@ import {
 } from 'candour'
 
 export default () => (
-  <Container component='a' href='/' flex padding>
-    <Text level={2} bold flex alignItemsCenter>
+  <Container flex padding>
+    <Text component='a' href='/' level={2} bold flex alignItemsCenter>
       <Container component='img' src='/logo.svg' paddingRight style={styles.logo} /> Honestive
     </Text>
   </Container>

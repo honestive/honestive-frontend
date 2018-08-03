@@ -2,12 +2,14 @@ import React, { Fragment } from 'react'
 import ReactMarkdown from 'react-markdown'
 
 import MarkdownRendererParagraph from './MarkdownRenderers/Paragraph'
+import MarkdownRendererHeading from './MarkdownRenderers/Heading'
 
-const RENDERERS = {
+const DEFAULT_RENDERERS = {
   paragraph: MarkdownRendererParagraph,
+  heading: MarkdownRendererHeading,
 }
 
-export default ({ component, ...rest }) => {
+export default ({ component, renderers, ...rest }) => {
   const Component = component || Fragment
   const wrapperProps = component ? rest : {}
 
@@ -15,7 +17,7 @@ export default ({ component, ...rest }) => {
     <Component {...wrapperProps}>
       <ReactMarkdown
         escapeHtml={false}
-        renderers={RENDERERS}
+        renderers={{ ...DEFAULT_RENDERERS, ...renderers }}
         {...rest}
       />
     </Component>
