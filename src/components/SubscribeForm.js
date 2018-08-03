@@ -14,6 +14,7 @@ import {
 } from 'candour'
 import step from '@candour/step'
 import windowSize from 'react-window-size'
+import Content from './Content'
 
 const SUBSCRIBE = gql`
   mutation subscribe($name: String!, $email: String!) {
@@ -43,17 +44,17 @@ class SubscribeForm extends Component {
                   }
                 </CandourConsumer>
                 <Button type='submit' disabled={data} marginBottom>
-                  Join early adopters
+                  <Content id='cjke1juh3ncy10953uwy7h4t0' />
                 </Button>
               </Container>
               <Container flexEnd={!isSmall(this)}>
                 <Text center={isSmall(this)}>
-                  Pre-launch. Invites in a few weeks.
+                  <Content id='cjke2476gne9209534gpm5r05' />
                 </Text>
               </Container>
             </Form>}
             {data && <Text level={2} paddingTop>
-              <span role='img' aria-label=''>⚡️</span> We will send you an invite to <Text level={2} bold inline>{data.createSubscriber.email}</Text> in a few weeks!
+              <Content id='cjke25tf3necu0953k7mc701s' />
             </Text>}
           </Container>
         )}
