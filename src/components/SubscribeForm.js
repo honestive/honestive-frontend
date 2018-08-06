@@ -34,7 +34,7 @@ class SubscribeForm extends Component {
         {(subscribe, { data }) => (
           <Container>
             {!data && <Form onSubmit={(variables) => subscribe({ variables })}>
-              <Container flex={!isSmall(this)} marginTop={2}>
+              <Container displayFlex={!isSmall(this)} marginTop={2}>
                 <CandourConsumer>
                   {theme =>
                     <Fragment>
@@ -47,8 +47,8 @@ class SubscribeForm extends Component {
                   <Content id='cjke1juh3ncy10953uwy7h4t0' />
                 </Button>
               </Container>
-              <Container flexEnd={!isSmall(this)}>
-                <Text center={isSmall(this)}>
+              <Container displayFlex justifyContentFlexEnd={!isSmall(this)}>
+                <Text textAlignCenter={isSmall(this)}>
                   <Content id='cjke2476gne9209534gpm5r05' />
                 </Text>
               </Container>

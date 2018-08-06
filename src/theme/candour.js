@@ -1,7 +1,7 @@
 import fluid from '@candour/fluid'
 
 export default {
-  headline: {
+  heading: {
     1: {
       fontSize: fluid(35, 70),
       lineHeight: fluid(35, 70),
@@ -23,10 +23,15 @@ export default {
     },
   },
   button: {
-    backgroundColor: '#2765EF',
+    base: {
+      backgroundColor: '#2765EF',
 
-    ':hover': {
-      backgroundColor: 'hsla(221, 86%, 45%, 1)',
+      ':hover': {
+        backgroundColor: 'hsla(221, 86%, 45%, 1)',
+      },
     },
+  },
+  limited: {
+    maxWidth: '700px',
   },
 }

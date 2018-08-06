@@ -1,8 +1,8 @@
 import React from 'react'
-import { Headline } from 'candour'
+import { Heading } from 'candour'
 
 export default ({ children, ...rest }) => (
-  <Headline {...rest}>
+  <Heading {...rest}>
     {children}
-  </Headline>
+  </Heading>
 )
