@@ -47,7 +47,7 @@ class SubscribeForm extends Component {
                   <Content id='cjke1juh3ncy10953uwy7h4t0' />
                 </Button>
               </Container>
-              <Container displayFlex justifyContentFlexEnd={!isSmall(this)}>
+              <Container displayFlex={!isSmall(this)} justifyContentFlexEnd={!isSmall(this)}>
                 <Text textAlignCenter={isSmall(this)}>
                   <Content id='cjke2476gne9209534gpm5r05' />
                 </Text>
