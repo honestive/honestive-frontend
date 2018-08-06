@@ -1677,9 +1677,9 @@ camelcase@^4.0.0, camelcase@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
 
-candour@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/candour/-/candour-4.0.0.tgz#85ca4cc40d8aba141cc33b8dfd3e10a9fa99e41c"
+candour@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/candour/-/candour-4.0.1.tgz#da7c5177fa78ce8608eb6796f1dbe8736ed53765"
   dependencies:
     "@candour/fluid" "^1.0.9"
     "@candour/step" "^1.0.11"

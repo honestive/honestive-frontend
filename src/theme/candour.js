@@ -9,6 +9,8 @@ export default {
     },
     2: {
       fontWeight: 600,
+      fontSize: fluid(20, 40),
+      lineHeight: fluid(20, 40),
     },
   },
   text: {

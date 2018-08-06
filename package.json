@@ -6,7 +6,7 @@
     "@candour/fluid": "^1.0.9",
     "@candour/step": "^1.0.11",
     "apollo-boost": "^0.1.12",
-    "candour": "4.0.0",
+    "candour": "4.0.1",
     "graphql": "^0.13.2",
     "informed": "^1.7.4",
     "normalize.css": "^8.0.0",

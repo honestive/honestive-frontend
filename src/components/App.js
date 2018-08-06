@@ -10,7 +10,7 @@ export default () => (
     <Head />
     <Navbar />
     <Splash />
-    <Container padding marginTop={3} limited>
+    <Container padding={2} marginTop={3} limited>
       <Content
         id='cjke6r04enqhb0953invxezte'
         renderers={{
