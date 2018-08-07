@@ -1,22 +1,17 @@
 import React from 'react'
-import Head from './Head'
-import Navbar from './Navbar'
-import Splash from './Splash'
-import Content from './Content'
-import { Container, Text } from 'candour'
+import {
+  BrowserRouter as Router,
+  Route,
+} from 'react-router-dom'
+
+import Landing from './Landing'
+import Articles from './Articles'
 
 export default () => (
-  <div>
-    <Head />
-    <Navbar />
-    <Splash />
-    <Container padding={2} marginTop={3} limited>
-      <Content
-        id='cjke6r04enqhb0953invxezte'
-        renderers={{
-          paragraph: ({ children }) => <Text level={4} paddingBottom={3}>{children}</Text>,
-        }}
-      />
-    </Container>
-  </div>
+  <Router>
+    <div>
+      <Route exact path='/' component={Landing} />
+      <Route exact path='/a' component={Articles} />
+    </div>
+  </Router>
 )
