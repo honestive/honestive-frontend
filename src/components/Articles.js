@@ -1,8 +1,6 @@
 import React from 'react'
 import Head from './Head'
 import Navbar from './Navbar'
-import Splash from './Splash'
-import Content from './Content'
 import { Heading, Container, Text } from 'candour'
 import gql from 'graphql-tag'
 import { Query } from 'react-apollo'

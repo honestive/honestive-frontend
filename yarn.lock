@@ -1650,10 +1650,6 @@ camel-case@3.0.x:
     no-case "^2.2.0"
     upper-case "^1.1.1"
 
-camelcase-css@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/camelcase-css/-/camelcase-css-2.0.0.tgz#76f0aed4924b9d3dde36adf14225c06d5a9835ae"
-
 camelcase-keys@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/camelcase-keys/-/camelcase-keys-2.1.0.tgz#308beeaffdf28119051efa1d932213c91b8f92e7"
@@ -1677,13 +1673,12 @@ camelcase@^4.0.0, camelcase@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
 
-candour@4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/candour/-/candour-4.0.2.tgz#fba5a05dced8c661edb3076ddef975ea8b1f0f98"
+candour@4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/candour/-/candour-4.0.3.tgz#912cb3f384a805aa05c53c58980a894da2097baf"
   dependencies:
     "@candour/fluid" "^1.0.9"
     "@candour/step" "^1.0.11"
-    camelcase-css "^2.0.0"
     filter-invalid-dom-props "^2.0.0"
     known-css-properties "^0.6.1"
     lodash "^4.17.10"

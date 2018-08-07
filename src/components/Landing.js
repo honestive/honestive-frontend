@@ -2,8 +2,6 @@ import React from 'react'
 import Head from './Head'
 import Navbar from './Navbar'
 import Splash from './Splash'
-import Content from './Content'
-import { Container, Text } from 'candour'
 
 export default () => (
   <div>
