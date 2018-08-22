@@ -15,7 +15,7 @@ const ARTICLES = gql`
       description
       title
       authorName
-      createdAt
+      publishedAt
 
       image {
         handle
@@ -39,8 +39,8 @@ export default () => (
             if (loading) return null
             if (error) return null
 
-            return _.map(data.articles, ({ id, url, title, description, authorName, createdAt }) => (
-              <Container key={id} component='a' href={url} target='_blank'>
+            return _.map(_.orderBy(data.articles, ['publishedAt'], ['desc']), ({ id, url, title, description, authorName, publishedAt }) => (
+              <Container key={id} component='a' href={url} target='_blank' paddingBottom={3} displayBlock>
                 <Heading level={2} textDecoration='underline'>
                   {title}
                 </Heading>
@@ -57,7 +57,7 @@ export default () => (
                     —
                   </Text>
                   <Text>
-                    {moment(createdAt).format('MMMM D, YYYY')}
+                    {moment(publishedAt).format('MMMM D, YYYY')}
                   </Text>
                 </Container>
               </Container>
