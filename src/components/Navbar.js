@@ -23,20 +23,6 @@ export default () => (
     <Text component='a' href='/' level={2} fontWeight500 displayFlex alignItemsCenter>
       <Container component='img' src='/logo.svg' paddingRight style={styles.logo} /> Honestive
     </Text>
-    <Container>
-      <Query query={TOP_MENU_ITEMS}>
-        {({ loading, error, data }) => {
-          if (loading) return null
-          if (error) return null
-
-          return _.map(data.topMenuItems, ({ id, url, text }) => (
-            <Text key={id} component='a' href={url} paddingLeft={2}>
-              {text}
-            </Text>
-          ))
-        }}
-      </Query>
-    </Container>
   </Container>
 )
 
