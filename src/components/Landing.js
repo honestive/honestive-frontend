@@ -1,20 +1,21 @@
 import React from 'react'
+import {
+  Container,
+} from 'candour'
 import Head from './Head'
 import Navbar from './Navbar'
 import Splash from './Splash'
 
 export default () => (
-  <div>
+  <Container
+    background='url(splash-illustration.svg)'
+    backgroundRepeat='no-repeat'
+    backgroundPosition='top right'
+    backgroundSize='50% 100%'
+    minHeight='115vh'
+  >
     <Head />
     <Navbar />
     <Splash />
-  </div>
+  </Container>
 )
-//    <Container padding={2} marginTop={3} limited>
-//      <Content
-//        id='cjke6r04enqhb0953invxezte'
-//        renderers={{
-//          paragraph: ({ children }) => <Text level={4} paddingBottom={3}>{children}</Text>,
-//        }}
-//      />
-//    </Container>

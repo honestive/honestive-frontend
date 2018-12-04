@@ -3,28 +3,37 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@candour/fluid": "^1.0.9",
-    "@candour/step": "^1.0.11",
-    "apollo-boost": "^0.1.12",
-    "candour": "4.0.3",
-    "graphql": "^0.13.2",
+    "apollo-boost": "^0.1.22",
+    "candour": "5.4.1",
+    "candour-borders": "^1.0.1",
+    "candour-colors": "^1.1.0",
+    "candour-custom": "^1.0.0",
+    "candour-fluid-steps": "^1.4.0",
+    "candour-normalize": "^1.0.4",
+    "formik": "^1.3.2",
+    "graphql": "14.0.2",
     "informed": "^1.7.4",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.11",
     "moment": "^2.22.2",
-    "normalize.css": "^8.0.0",
-    "react": "^16.4.1",
-    "react-apollo": "^2.1.9",
-    "react-dom": "^16.4.1",
+    "react": "16.7.0-alpha.2",
+    "react-apollo": "^2.3.2",
+    "react-dom": "16.7.0-alpha.2",
     "react-helmet": "^5.2.0",
     "react-markdown": "^3.4.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4",
-    "react-window-size": "^1.2.0"
+    "react-scripts": "2.1.1",
+    "yup": "^0.26.6"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
