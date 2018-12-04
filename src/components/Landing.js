@@ -12,7 +12,7 @@ export default () => (
     backgroundRepeat='no-repeat'
     backgroundPosition='top right'
     backgroundSize='50% 100%'
-    minHeight='115vh'
+    minHeight='100vh'
   >
     <Head />
     <Navbar />
